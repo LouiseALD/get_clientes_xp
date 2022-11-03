@@ -47,9 +47,6 @@ Insira os tópicos do README em links para facilitar a navegação do leitor
 :warning: [Python](https://nodejs.org/en/download/)
 :warning: [Pandas](https://nodejs.org/en/download/)
 
-...
-
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação 
 
 ## Como rodar a aplicação :arrow_forward:
 
@@ -83,17 +80,12 @@ Se for necessário configurar algo antes de iniciar o banco de dados insira os c
 - [Python](https://github.com/python)
 - [Pandas](https://github.com/pandas-dev)
 
-...
-
-Liste as tecnologias utilizadas no projeto que **não** forem reconhecidas pelo Github 
 
 ## Resolvendo Problemas :exclamation:
 
 Em [issues]() Pequeno bug: Ao ler todos os itens da lista, o código se encerra apresentando um erro
 
 ## Tarefas em aberto
-
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação
 
 :memo: Tarefa 1 - Necessário desenvolver um scraping a parte para coletar os dados, ou salvar o HTML da página 
 
