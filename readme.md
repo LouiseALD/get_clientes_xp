@@ -1,25 +1,17 @@
 <h1>Puxando Clientes XP do HTML para CSV </h1> 
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
-  <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
-  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby&message=2.6.3&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby%20On%20Rails%20&message=6.0.2.2&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 </p>
 
-> Status do Projeto: :heavy_check_mark: :warning: (concluido, em desenvolvimento, etc)
+> Status do Script: :warning: Em aprimoramento
 
 ### Tópicos 
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
-
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
@@ -69,23 +61,18 @@ git clone https://github.com/LouiseALD/get_clientes_xp
 
 ... 
 
-Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
-
 ## Casos de Uso
 
-Explique com mais detalhes como a sua aplicação poderia ser utilizada. O uso de **gifs** aqui seria bem interessante. 
-
-Exemplo: Caso a sua aplicação tenha alguma funcionalidade de login apresente neste tópico os dados necessários para acessá-la.
+Para conseguir realizar, é necessário o codigo do acessor além dos HTMLS da página.
 
 ## JSON :floppy_disk:
 
-### Usuários: 
+### Ordem de dados gerados no CSV: 
 
 ... 
 |Nome da Origem	|Nome do Cliente	|Numero Conta	|Telefone	|Patrimonio XP	|Saldo em conta	|Codigo Proprietario da Conta|	Aplicacoes financeiras	|Rua de Correspondencia	|CEP Correspondencia	|Email	|Celular	|CNPJ	| Acessor responsavel	|receitabovespa
 ... 
 
-Se quiser, coloque uma amostra do banco de dados 
 
 ## Iniciando/Configurando banco de dados
 
@@ -102,17 +89,13 @@ Liste as tecnologias utilizadas no projeto que **não** forem reconhecidas pelo 
 
 ## Resolvendo Problemas :exclamation:
 
-Em [issues]() foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
+Em [issues]() Pequeno bug: Ao ler todos os itens da lista, o código se encerra apresentando um erro
 
 ## Tarefas em aberto
 
 Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação
 
-:memo: Tarefa 1 - Necessário 
-
-:memo: Tarefa 2 
-
-:memo: Tarefa 3 
+:memo: Tarefa 1 - Necessário desenvolver um scraping a parte para coletar os dados, ou salvar o HTML da página 
 
 ## Passo a passo após coletar os CSVs
 
@@ -135,15 +118,14 @@ Obs: Caso aconteça algum erro é devido a incompatibilidade de determinados cam
 
 ## Desenvolvedores/Contribuintes :octocat:
 
-Liste o time responsável pelo desenvolvimento do projeto
+Time responsável pelo desenvolvimento do projeto
 
-| [<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Diana Regina</sub>](https://github.com/LouiseALD) 
-| :---: | :---: | :---: 
+| [<sub>Louise Aldrighi</sub>](https://github.com/LouiseALD) 
 
 ## Licença 
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: Ano - Titulo do Projeto
+Copyright :copyright: 2022 - Automação de dados clientes XP
 
 Créditos de templante README : https://gist.github.com/reginadiana/
